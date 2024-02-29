@@ -1,0 +1,2 @@
+sap.ui.require(["sap/fe/test/JourneyRunner","RiskManagement/Risk/test/integration/FirstJourney","RiskManagement/Risk/test/integration/pages/RisksList","RiskManagement/Risk/test/integration/pages/RisksObjectPage"],function(e,s,i,t){"use strict";var e=new e({launchUrl:sap.ui.require.toUrl("RiskManagement/Risk")+"/index.html"});e.run({pages:{onTheRisksList:i,onTheRisksObjectPage:t}},s.run)});
+//# sourceMappingURL=opaTests.qunit.js.map
